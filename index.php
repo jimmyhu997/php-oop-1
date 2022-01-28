@@ -37,7 +37,7 @@ $The_Godfather->setBudget(6000000.00);
     <?php foreach($movies as $movie){?>
         <h2><?php echo $movie->getNameYear(); ?></h2>
         <ul>
-            <li>Duration: <?php echo "{$movie->getNameYear()}"; ?></li>
+            <li>Duration: <?php echo "{$movie->getDuration()} Min"; ?></li>
             <li>Budget: <?php echo "{$movie->getBudget()}"; ?></li>
             <li>Original Language: <?php echo "{$movie->getLanguage()}"; ?></li>
             <li>Country: <?php echo "{$movie->getCountry()}"; ?></li>

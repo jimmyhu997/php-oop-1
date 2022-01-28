@@ -63,7 +63,7 @@ class Movie{
     }
 
     public function getBudget(){
-        return $this->budget;
+        return intval($this->budget);
     }
 
     public function getLanguage(){
